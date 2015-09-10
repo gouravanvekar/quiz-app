@@ -217,10 +217,18 @@ body { background-color: #000; padding: 20px; }
    background-image: url("../images/icon_twitter.svg");
 }
 
+#myQuiz .active, #myQuiz .inactive {
+   -webkit-transition: left 1.5s ease-in-out;
+   -moz-transition: left 1.5s ease-in-out;
+   -ms-transition: left 1.5s ease-in-out;
+   -o-transition: left 1.5s ease-in-out;
+   transition: left 1.5s ease-in-out;
+}
 
+#myQuiz .active{
+   left: 40px;
+}
 
-
-
-
-
-
+#myQuiz .intro.inactive, #myQuiz.inactive.answered {
+   left: -1350px;
+}
