@@ -218,7 +218,8 @@ body { background-color: #000; padding: 20px; }
 }
 
 #myQuiz .results .share a.btn.twitter{
-   background: #59adeb url("../images/icon_twitter.svg");
+    background-color: #59adeb;
+    background-image: url("../images/icon_twitter.svg");
 }
 
 #myQuiz .active, #myQuiz .inactive {
@@ -233,6 +234,14 @@ body { background-color: #000; padding: 20px; }
    left: 40px;
 }
 
-#myQuiz .intro.inactive, #myQuiz.inactive.answered {
+#myQuiz .intro.inactive, #myQuiz .inactive.answered {
    left: -1350px;
+}
+
+#myQuiz {
+    height: 1000px;
+}
+#myQuiz .results {
+    top: 650px !important;;
+    left: 40px !important;
 }
