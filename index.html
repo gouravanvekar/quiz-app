@@ -23,7 +23,11 @@
 		 ng-repeat="myQuestion in myQuestions">
 		<p class="txt">{{ myQuestion.question }}</p>
 		<p class="ans"
-		   ng-class="{ selected:isSelected($parent.$index, $index), correct: isCorrect($parent.$index, $index) }"
+		   ng-class="{
+		   image: answer.image,
+		   selected:isSelected($parent.$index, $index),
+		   correct: isCorrect($parent.$index, $index) }"
+		   ng-style=" { 'background-image': 'url({{ answer.image }})' } "
 		   ng-click="selectAnswer($parent.$index, $index)"
 		   ng-repeat="answer in myQuestion.answers">
 			{{ answer.text }}

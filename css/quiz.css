@@ -161,6 +161,12 @@ body { background-color: #000; padding: 20px; }
    cursor: default;
 }
 
+#myQuiz .question .ans.image{
+   min-height: 60px;
+   padding: 0px;
+   background: no-repeat 0px 0px;
+}
+
 /* Feedback */
 
 #myQuiz .feedback {
