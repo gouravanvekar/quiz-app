@@ -72,7 +72,7 @@ body { background-color: #000; padding: 20px; }
    width: 65px;
    height: 40px;
    background: url(../images/ring.svg) no-repeat 0px 0px;
-   transition: opacity 1s top: 1s;
+   transition: opacity 1s, top 1s;
    opacity: 0;
 }
 
@@ -208,8 +208,7 @@ body { background-color: #000; padding: 20px; }
    text-decoration: none;
    margin-right: 20px;
    padding: 9px 15px 8px 42px;
-   background-repeat: no-repeat;
-   background-position: 10px 5px;
+   background: no-repeat 10px 5px;
    background-size: 25px 25px;
 }
 
@@ -219,8 +218,7 @@ body { background-color: #000; padding: 20px; }
 }
 
 #myQuiz .results .share a.btn.twitter{
-   background-color: #59adeb;
-   background-image: url("../images/icon_twitter.svg");
+   background: #59adeb url("../images/icon_twitter.svg");
 }
 
 #myQuiz .active, #myQuiz .inactive {

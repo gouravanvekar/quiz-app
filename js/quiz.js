@@ -39,6 +39,14 @@
         $scope.isCorrect = function(qIndex, aIndex){
             return $scope.myQuestions[qIndex].correctAnswer === aIndex;
         }
+
+        $scope.selectContinue = function(){
+            //if($scope.activeQuestion === $scope.totalQuestions - 1){
+            //
+            //}
+            //else
+            return  $scope.activeQuestion += 1;
+        }
     }]);
 
 })();
