@@ -53,5 +53,4 @@
             return $sce.trustAsHtml(newMarkup);
         }
     }]);
-
 })();

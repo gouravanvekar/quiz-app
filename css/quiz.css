@@ -343,3 +343,18 @@ body { background-color: #000; padding: 20px; }
         margin-top: 5px;
     }
 }
+
+.footer-link{
+    color: #2aabd2;
+    cursor: pointer;
+}
+
+.footer-link a{
+    color: #2aabd2;
+    cursor: pointer;
+}
+
+.footer-link a:hover{
+    color: #2aabd2;
+    cursor: pointer;
+}
